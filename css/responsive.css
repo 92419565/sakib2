@@ -1,0 +1,106 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.single-slide{
+	width: 100%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	opacity: 1;
+	min-height:667px;
+}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.menu-ul li {
+	padding: 40px 5px;
+}
+.counter-icon {
+	padding: 0 15px;
+}
+.counter-content {
+	text-align: center;
+}
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.menu-ul li {
+	padding: 0px 0;
+}
+.menu{
+	text-align:center;
+}
+.transparent-menu {
+	position:none;
+}
+.video {
+	padding: 170px 0px;
+}
+.single-slide{
+width: 100%;
+position: relative;
+left: 0px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+min-height:500px;
+}
+.foot-content span{
+	margin-bottom:20px;
+}
+.single-slide{
+width: 100%;
+position: relative;
+left: 0px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+min-height:567px;
+background-position:center center;
+}
+.single-counter{
+	margin-bottom:20px;
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.container {width:450px}
+ .counter-icon {
+	padding: 0 15px;
+}
+.counter-content {
+	text-align: center;
+}
+.single-counter{
+	margin-bottom:20px;
+}
+.single-slide{
+width: 100%;
+position: relative;
+left: 0px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+min-height:567px;
+background-position:center center;
+}
+.foot-content span{
+	margin-bottom:20px;
+}
+}
